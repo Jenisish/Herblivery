@@ -8,6 +8,9 @@ env/
 venv/
 .venv/
 .env
+.env.local
+.env.production
+.env.development
 .DS_Store
 *.log
 .coverage
@@ -19,3 +22,28 @@ node_modules/
 *.swp
 *.swo
 Thumbs.db
+
+# Additional Security Files
+config/secrets.json
+secrets/
+credentials/
+*.key
+*.pem
+*.p12
+*.p8
+api-keys.txt
+tokens.txt
+
+# Database Files
+database.sqlite
+*.db
+*.sqlite3
+
+# Railway
+.railway/
+
+# Expo
+.expo/
+dist/
+web-build/
+.expo-shared/

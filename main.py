@@ -2,18 +2,48 @@ from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+from fastapi.middleware.cors import CORSMiddleware
 from pymongo import MongoClient
 import os
+from dotenv import load_dotenv
 
-app = FastAPI()
+# Load environment variables from .env file
+load_dotenv()
 
-MONGO_URI = "mongodb+srv://HerbTraceDBAdmin:Dqml1HerbTrace@herbtracedb.bpo4akz.mongodb.net/HerbTraceDB?retryWrites=true&w=majority"
-client = MongoClient(MONGO_URI,tls=True, tlsAllowInvalidCertificates=True)
-db = client["database"]
-collection = db["packaging"]
+app = FastAPI(
+    title=os.getenv("API_TITLE", "HerbTrace API"),
+    description=os.getenv("API_DESCRIPTION", "Ayurvedic Herb Traceability System"),
+    version=os.getenv("API_VERSION", "1.0.0")
+)
 
-print(collection)
+# Get CORS origins from environment
+allowed_origins = os.getenv("ALLOWED_ORIGINS", "*").split(",")
 
+# Add CORS middleware for mobile app support
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=allowed_origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Get MongoDB configuration from environment
+MONGO_URI = os.getenv("MONGO_URI")
+if not MONGO_URI:
+    raise ValueError("MONGO_URI environment variable is required")
+
+MONGO_DB_NAME = os.getenv("MONGO_DB_NAME", "database")
+MONGO_COLLECTION_NAME = os.getenv("MONGO_COLLECTION_NAME", "packaging")
+
+client = MongoClient(MONGO_URI, tls=True, tlsAllowInvalidCertificates=True)
+db = client[MONGO_DB_NAME]
+collection = db[MONGO_COLLECTION_NAME]
+
+# Debug info (only in development)
+if os.getenv("DEBUG", "False").lower() == "true":
+    print(f"📊 Connected to MongoDB: {MONGO_DB_NAME}")
+    print(f"📦 Using collection: {MONGO_COLLECTION_NAME}")
 
 packaging_col = db["packaging"]
 retailers_col = db["retailers"]
