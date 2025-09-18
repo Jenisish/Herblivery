@@ -1,0 +1,2 @@
+username: HerbTraceDBAdmin
+password: Dqml1HerbTrace

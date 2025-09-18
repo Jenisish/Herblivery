@@ -1,0 +1,1926 @@
+{
+    "herbs": [
+        {
+            "herb_id": "H001",
+            "herb_name": "Ashwagandha",
+            "scientific_name": "Withania somnifera",
+            "category": "Root"
+        },
+        {
+            "herb_id": "H002",
+            "herb_name": "Tulsi",
+            "scientific_name": "Ocimum tenuiflorum",
+            "category": "Leaf"
+        },
+        {
+            "herb_id": "H003",
+            "herb_name": "Neem",
+            "scientific_name": "Azadirachta indica",
+            "category": "Leaf"
+        },
+        {
+            "herb_id": "H004",
+            "herb_name": "Amla",
+            "scientific_name": "Phyllanthus emblica",
+            "category": "Fruit"
+        },
+        {
+            "herb_id": "H005",
+            "herb_name": "Shatavari",
+            "scientific_name": "Asparagus racemosus",
+            "category": "Root"
+        },
+        {
+            "herb_id": "H006",
+            "herb_name": "Brahmi",
+            "scientific_name": "Bacopa monnieri",
+            "category": "Leaf"
+        },
+        {
+            "herb_id": "H007",
+            "herb_name": "Turmeric",
+            "scientific_name": "Curcuma longa",
+            "category": "Rhizome"
+        },
+        {
+            "herb_id": "H008",
+            "herb_name": "Giloy",
+            "scientific_name": "Tinospora cordifolia",
+            "category": "Stem"
+        },
+        {
+            "herb_id": "H009",
+            "herb_name": "Mulethi",
+            "scientific_name": "Glycyrrhiza glabra",
+            "category": "Root"
+        },
+        {
+            "herb_id": "H010",
+            "herb_name": "Arjuna",
+            "scientific_name": "Terminalia arjuna",
+            "category": "Bark"
+        },
+        {
+            "herb_id": "H011",
+            "herb_name": "Bael",
+            "scientific_name": "Aegle marmelos",
+            "category": "Fruit"
+        },
+        {
+            "herb_id": "H012",
+            "herb_name": "Triphala",
+            "scientific_name": "Blend (Amla, Haritaki, Bibhitaki)",
+            "category": "Fruit Blend"
+        }
+    ],
+    "farm_batches": [
+        {
+            "batch_id": "B001",
+            "herb_id": "H006",
+            "herb_name": "Brahmi",
+            "farm_location": "Mira-Bhayandar, Telangana",
+            "farmer_id": "F013",
+            "sowing_date": "2025-06-04",
+            "harvest_date": "2025-08-19",
+            "yield_quantity_kg": 203
+        },
+        {
+            "batch_id": "B002",
+            "herb_id": "H009",
+            "herb_name": "Mulethi",
+            "farm_location": "Shimla, Himachal Pradesh",
+            "farmer_id": "F018",
+            "sowing_date": "2025-05-05",
+            "harvest_date": "2025-08-10",
+            "yield_quantity_kg": 309
+        },
+        {
+            "batch_id": "B003",
+            "herb_id": "H011",
+            "herb_name": "Bael",
+            "farm_location": "Berhampore, Haryana",
+            "farmer_id": "F009",
+            "sowing_date": "2025-03-24",
+            "harvest_date": "2025-08-09",
+            "yield_quantity_kg": 139
+        },
+        {
+            "batch_id": "B004",
+            "herb_id": "H008",
+            "herb_name": "Giloy",
+            "farm_location": "Madanapalle, West Bengal",
+            "farmer_id": "F003",
+            "sowing_date": "2025-05-16",
+            "harvest_date": "2025-08-20",
+            "yield_quantity_kg": 367
+        },
+        {
+            "batch_id": "B005",
+            "herb_id": "H003",
+            "herb_name": "Neem",
+            "farm_location": "Jalgaon, Chhattisgarh",
+            "farmer_id": "F008",
+            "sowing_date": "2025-04-03",
+            "harvest_date": "2025-08-25",
+            "yield_quantity_kg": 237
+        },
+        {
+            "batch_id": "B006",
+            "herb_id": "H003",
+            "herb_name": "Neem",
+            "farm_location": "Thiruvananthapuram, Karnataka",
+            "farmer_id": "F018",
+            "sowing_date": "2025-05-18",
+            "harvest_date": "2025-09-06",
+            "yield_quantity_kg": 202
+        },
+        {
+            "batch_id": "B007",
+            "herb_id": "H003",
+            "herb_name": "Neem",
+            "farm_location": "Kolhapur, Goa",
+            "farmer_id": "F018",
+            "sowing_date": "2025-05-02",
+            "harvest_date": "2025-08-09",
+            "yield_quantity_kg": 310
+        },
+        {
+            "batch_id": "B008",
+            "herb_id": "H003",
+            "herb_name": "Neem",
+            "farm_location": "Davanagere, Rajasthan",
+            "farmer_id": "F011",
+            "sowing_date": "2025-04-08",
+            "harvest_date": "2025-08-10",
+            "yield_quantity_kg": 457
+        },
+        {
+            "batch_id": "B009",
+            "herb_id": "H005",
+            "herb_name": "Shatavari",
+            "farm_location": "South Dumdum, Arunachal Pradesh",
+            "farmer_id": "F017",
+            "sowing_date": "2025-04-24",
+            "harvest_date": "2025-08-24",
+            "yield_quantity_kg": 253
+        },
+        {
+            "batch_id": "B010",
+            "herb_id": "H009",
+            "herb_name": "Mulethi",
+            "farm_location": "Madhyamgram, Gujarat",
+            "farmer_id": "F013",
+            "sowing_date": "2025-05-01",
+            "harvest_date": "2025-07-20",
+            "yield_quantity_kg": 195
+        },
+        {
+            "batch_id": "B011",
+            "herb_id": "H010",
+            "herb_name": "Arjuna",
+            "farm_location": "Udaipur, Himachal Pradesh",
+            "farmer_id": "F010",
+            "sowing_date": "2025-05-25",
+            "harvest_date": "2025-07-24",
+            "yield_quantity_kg": 234
+        },
+        {
+            "batch_id": "B012",
+            "herb_id": "H004",
+            "herb_name": "Amla",
+            "farm_location": "Kolhapur, Nagaland",
+            "farmer_id": "F011",
+            "sowing_date": "2025-04-25",
+            "harvest_date": "2025-08-26",
+            "yield_quantity_kg": 285
+        },
+        {
+            "batch_id": "B013",
+            "herb_id": "H002",
+            "herb_name": "Tulsi",
+            "farm_location": "North Dumdum, Himachal Pradesh",
+            "farmer_id": "F005",
+            "sowing_date": "2025-03-24",
+            "harvest_date": "2025-08-09",
+            "yield_quantity_kg": 264
+        },
+        {
+            "batch_id": "B014",
+            "herb_id": "H012",
+            "herb_name": "Triphala",
+            "farm_location": "Warangal, Himachal Pradesh",
+            "farmer_id": "F013",
+            "sowing_date": "2025-05-02",
+            "harvest_date": "2025-08-14",
+            "yield_quantity_kg": 354
+        },
+        {
+            "batch_id": "B015",
+            "herb_id": "H001",
+            "herb_name": "Ashwagandha",
+            "farm_location": "Mahbubnagar, Uttarakhand",
+            "farmer_id": "F005",
+            "sowing_date": "2025-05-24",
+            "harvest_date": "2025-08-03",
+            "yield_quantity_kg": 162
+        },
+        {
+            "batch_id": "B016",
+            "herb_id": "H012",
+            "herb_name": "Triphala",
+            "farm_location": "Guna, Himachal Pradesh",
+            "farmer_id": "F009",
+            "sowing_date": "2025-05-21",
+            "harvest_date": "2025-08-09",
+            "yield_quantity_kg": 211
+        },
+        {
+            "batch_id": "B017",
+            "herb_id": "H008",
+            "herb_name": "Giloy",
+            "farm_location": "Bhilai, Punjab",
+            "farmer_id": "F004",
+            "sowing_date": "2025-06-11",
+            "harvest_date": "2025-09-06",
+            "yield_quantity_kg": 167
+        },
+        {
+            "batch_id": "B018",
+            "herb_id": "H009",
+            "herb_name": "Mulethi",
+            "farm_location": "Nagaon, Kerala",
+            "farmer_id": "F009",
+            "sowing_date": "2025-04-29",
+            "harvest_date": "2025-07-24",
+            "yield_quantity_kg": 207
+        },
+        {
+            "batch_id": "B019",
+            "herb_id": "H007",
+            "herb_name": "Turmeric",
+            "farm_location": "Amravati, Arunachal Pradesh",
+            "farmer_id": "F002",
+            "sowing_date": "2025-03-18",
+            "harvest_date": "2025-07-20",
+            "yield_quantity_kg": 113
+        },
+        {
+            "batch_id": "B020",
+            "herb_id": "H005",
+            "herb_name": "Shatavari",
+            "farm_location": "Imphal, Himachal Pradesh",
+            "farmer_id": "F012",
+            "sowing_date": "2025-06-11",
+            "harvest_date": "2025-08-14",
+            "yield_quantity_kg": 247
+        },
+        {
+            "batch_id": "B021",
+            "herb_id": "H010",
+            "herb_name": "Arjuna",
+            "farm_location": "Pondicherry, Sikkim",
+            "farmer_id": "F009",
+            "sowing_date": "2025-03-22",
+            "harvest_date": "2025-08-19",
+            "yield_quantity_kg": 270
+        },
+        {
+            "batch_id": "B022",
+            "herb_id": "H007",
+            "herb_name": "Turmeric",
+            "farm_location": "Kurnool, Mizoram",
+            "farmer_id": "F012",
+            "sowing_date": "2025-04-27",
+            "harvest_date": "2025-07-25",
+            "yield_quantity_kg": 300
+        },
+        {
+            "batch_id": "B023",
+            "herb_id": "H009",
+            "herb_name": "Mulethi",
+            "farm_location": "Bhiwandi, Andhra Pradesh",
+            "farmer_id": "F015",
+            "sowing_date": "2025-04-24",
+            "harvest_date": "2025-08-21",
+            "yield_quantity_kg": 459
+        },
+        {
+            "batch_id": "B024",
+            "herb_id": "H011",
+            "herb_name": "Bael",
+            "farm_location": "Sasaram, Maharashtra",
+            "farmer_id": "F001",
+            "sowing_date": "2025-05-02",
+            "harvest_date": "2025-08-14",
+            "yield_quantity_kg": 383
+        },
+        {
+            "batch_id": "B025",
+            "herb_id": "H011",
+            "herb_name": "Bael",
+            "farm_location": "Phagwara, Tamil Nadu",
+            "farmer_id": "F018",
+            "sowing_date": "2025-03-27",
+            "harvest_date": "2025-08-22",
+            "yield_quantity_kg": 323
+        },
+        {
+            "batch_id": "B026",
+            "herb_id": "H011",
+            "herb_name": "Bael",
+            "farm_location": "Agartala, Uttar Pradesh",
+            "farmer_id": "F013",
+            "sowing_date": "2025-05-03",
+            "harvest_date": "2025-09-10",
+            "yield_quantity_kg": 233
+        },
+        {
+            "batch_id": "B027",
+            "herb_id": "H011",
+            "herb_name": "Bael",
+            "farm_location": "Chinsurah, Manipur",
+            "farmer_id": "F014",
+            "sowing_date": "2025-05-14",
+            "harvest_date": "2025-09-06",
+            "yield_quantity_kg": 280
+        },
+        {
+            "batch_id": "B028",
+            "herb_id": "H008",
+            "herb_name": "Giloy",
+            "farm_location": "Bijapur, Telangana",
+            "farmer_id": "F018",
+            "sowing_date": "2025-03-26",
+            "harvest_date": "2025-08-31",
+            "yield_quantity_kg": 465
+        },
+        {
+            "batch_id": "B029",
+            "herb_id": "H003",
+            "herb_name": "Neem",
+            "farm_location": "Coimbatore, Himachal Pradesh",
+            "farmer_id": "F011",
+            "sowing_date": "2025-05-21",
+            "harvest_date": "2025-09-13",
+            "yield_quantity_kg": 418
+        },
+        {
+            "batch_id": "B030",
+            "herb_id": "H005",
+            "herb_name": "Shatavari",
+            "farm_location": "Madanapalle, Tripura",
+            "farmer_id": "F018",
+            "sowing_date": "2025-04-13",
+            "harvest_date": "2025-09-08",
+            "yield_quantity_kg": 459
+        },
+        {
+            "batch_id": "B031",
+            "herb_id": "H003",
+            "herb_name": "Neem",
+            "farm_location": "Rampur, Odisha",
+            "farmer_id": "F004",
+            "sowing_date": "2025-04-08",
+            "harvest_date": "2025-07-23",
+            "yield_quantity_kg": 453
+        },
+        {
+            "batch_id": "B032",
+            "herb_id": "H003",
+            "herb_name": "Neem",
+            "farm_location": "Kharagpur, Himachal Pradesh",
+            "farmer_id": "F005",
+            "sowing_date": "2025-05-20",
+            "harvest_date": "2025-07-29",
+            "yield_quantity_kg": 473
+        },
+        {
+            "batch_id": "B033",
+            "herb_id": "H002",
+            "herb_name": "Tulsi",
+            "farm_location": "Agartala, Assam",
+            "farmer_id": "F006",
+            "sowing_date": "2025-03-20",
+            "harvest_date": "2025-08-19",
+            "yield_quantity_kg": 184
+        },
+        {
+            "batch_id": "B034",
+            "herb_id": "H010",
+            "herb_name": "Arjuna",
+            "farm_location": "Serampore, Sikkim",
+            "farmer_id": "F003",
+            "sowing_date": "2025-03-21",
+            "harvest_date": "2025-08-14",
+            "yield_quantity_kg": 153
+        },
+        {
+            "batch_id": "B035",
+            "herb_id": "H009",
+            "herb_name": "Mulethi",
+            "farm_location": "Thane, Odisha",
+            "farmer_id": "F006",
+            "sowing_date": "2025-06-04",
+            "harvest_date": "2025-07-28",
+            "yield_quantity_kg": 288
+        },
+        {
+            "batch_id": "B036",
+            "herb_id": "H009",
+            "herb_name": "Mulethi",
+            "farm_location": "Vadodara, Goa",
+            "farmer_id": "F004",
+            "sowing_date": "2025-03-19",
+            "harvest_date": "2025-08-18",
+            "yield_quantity_kg": 495
+        },
+        {
+            "batch_id": "B037",
+            "herb_id": "H012",
+            "herb_name": "Triphala",
+            "farm_location": "Nanded, Haryana",
+            "farmer_id": "F003",
+            "sowing_date": "2025-05-03",
+            "harvest_date": "2025-09-10",
+            "yield_quantity_kg": 264
+        },
+        {
+            "batch_id": "B038",
+            "herb_id": "H011",
+            "herb_name": "Bael",
+            "farm_location": "Mathura, Odisha",
+            "farmer_id": "F011",
+            "sowing_date": "2025-04-15",
+            "harvest_date": "2025-08-04",
+            "yield_quantity_kg": 179
+        },
+        {
+            "batch_id": "B039",
+            "herb_id": "H012",
+            "herb_name": "Triphala",
+            "farm_location": "Raipur, Punjab",
+            "farmer_id": "F009",
+            "sowing_date": "2025-05-18",
+            "harvest_date": "2025-09-13",
+            "yield_quantity_kg": 325
+        },
+        {
+            "batch_id": "B040",
+            "herb_id": "H010",
+            "herb_name": "Arjuna",
+            "farm_location": "Gopalpur, Telangana",
+            "farmer_id": "F009",
+            "sowing_date": "2025-04-06",
+            "harvest_date": "2025-08-23",
+            "yield_quantity_kg": 216
+        },
+        {
+            "batch_id": "B041",
+            "herb_id": "H004",
+            "herb_name": "Amla",
+            "farm_location": "Dehradun, West Bengal",
+            "farmer_id": "F011",
+            "sowing_date": "2025-04-17",
+            "harvest_date": "2025-09-07",
+            "yield_quantity_kg": 326
+        },
+        {
+            "batch_id": "B042",
+            "herb_id": "H012",
+            "herb_name": "Triphala",
+            "farm_location": "Suryapet, Karnataka",
+            "farmer_id": "F008",
+            "sowing_date": "2025-04-12",
+            "harvest_date": "2025-09-08",
+            "yield_quantity_kg": 490
+        },
+        {
+            "batch_id": "B043",
+            "herb_id": "H001",
+            "herb_name": "Ashwagandha",
+            "farm_location": "Erode, Haryana",
+            "farmer_id": "F008",
+            "sowing_date": "2025-04-08",
+            "harvest_date": "2025-08-07",
+            "yield_quantity_kg": 360
+        },
+        {
+            "batch_id": "B044",
+            "herb_id": "H010",
+            "herb_name": "Arjuna",
+            "farm_location": "Adoni, Madhya Pradesh",
+            "farmer_id": "F009",
+            "sowing_date": "2025-04-14",
+            "harvest_date": "2025-07-30",
+            "yield_quantity_kg": 210
+        },
+        {
+            "batch_id": "B045",
+            "herb_id": "H001",
+            "herb_name": "Ashwagandha",
+            "farm_location": "Ambala, Gujarat",
+            "farmer_id": "F006",
+            "sowing_date": "2025-04-28",
+            "harvest_date": "2025-07-25",
+            "yield_quantity_kg": 404
+        },
+        {
+            "batch_id": "B046",
+            "herb_id": "H010",
+            "herb_name": "Arjuna",
+            "farm_location": "Navi Mumbai, Punjab",
+            "farmer_id": "F004",
+            "sowing_date": "2025-04-16",
+            "harvest_date": "2025-07-29",
+            "yield_quantity_kg": 408
+        },
+        {
+            "batch_id": "B047",
+            "herb_id": "H011",
+            "herb_name": "Bael",
+            "farm_location": "Bahraich, Sikkim",
+            "farmer_id": "F001",
+            "sowing_date": "2025-04-16",
+            "harvest_date": "2025-08-04",
+            "yield_quantity_kg": 345
+        },
+        {
+            "batch_id": "B048",
+            "herb_id": "H006",
+            "herb_name": "Brahmi",
+            "farm_location": "Solapur, Madhya Pradesh",
+            "farmer_id": "F014",
+            "sowing_date": "2025-06-05",
+            "harvest_date": "2025-07-23",
+            "yield_quantity_kg": 346
+        },
+        {
+            "batch_id": "B049",
+            "herb_id": "H001",
+            "herb_name": "Ashwagandha",
+            "farm_location": "Gudivada, Nagaland",
+            "farmer_id": "F020",
+            "sowing_date": "2025-05-19",
+            "harvest_date": "2025-08-13",
+            "yield_quantity_kg": 225
+        },
+        {
+            "batch_id": "B050",
+            "herb_id": "H012",
+            "herb_name": "Triphala",
+            "farm_location": "Phusro, Tripura",
+            "farmer_id": "F005",
+            "sowing_date": "2025-04-09",
+            "harvest_date": "2025-08-16",
+            "yield_quantity_kg": 250
+        },
+        {
+            "batch_id": "B051",
+            "herb_id": "H006",
+            "herb_name": "Brahmi",
+            "farm_location": "Muzaffarnagar, Maharashtra",
+            "farmer_id": "F009",
+            "sowing_date": "2025-04-15",
+            "harvest_date": "2025-08-17",
+            "yield_quantity_kg": 307
+        },
+        {
+            "batch_id": "B052",
+            "herb_id": "H002",
+            "herb_name": "Tulsi",
+            "farm_location": "Guntakal, Maharashtra",
+            "farmer_id": "F008",
+            "sowing_date": "2025-05-28",
+            "harvest_date": "2025-07-19",
+            "yield_quantity_kg": 385
+        },
+        {
+            "batch_id": "B053",
+            "herb_id": "H003",
+            "herb_name": "Neem",
+            "farm_location": "Davanagere, Nagaland",
+            "farmer_id": "F017",
+            "sowing_date": "2025-05-10",
+            "harvest_date": "2025-07-19",
+            "yield_quantity_kg": 451
+        },
+        {
+            "batch_id": "B054",
+            "herb_id": "H010",
+            "herb_name": "Arjuna",
+            "farm_location": "Siliguri, Punjab",
+            "farmer_id": "F012",
+            "sowing_date": "2025-04-13",
+            "harvest_date": "2025-09-07",
+            "yield_quantity_kg": 324
+        },
+        {
+            "batch_id": "B055",
+            "herb_id": "H007",
+            "herb_name": "Turmeric",
+            "farm_location": "Salem, Punjab",
+            "farmer_id": "F002",
+            "sowing_date": "2025-04-21",
+            "harvest_date": "2025-09-12",
+            "yield_quantity_kg": 244
+        },
+        {
+            "batch_id": "B056",
+            "herb_id": "H009",
+            "herb_name": "Mulethi",
+            "farm_location": "Nellore, Bihar",
+            "farmer_id": "F019",
+            "sowing_date": "2025-04-27",
+            "harvest_date": "2025-08-28",
+            "yield_quantity_kg": 470
+        },
+        {
+            "batch_id": "B057",
+            "herb_id": "H004",
+            "herb_name": "Amla",
+            "farm_location": "Agartala, Karnataka",
+            "farmer_id": "F020",
+            "sowing_date": "2025-06-03",
+            "harvest_date": "2025-08-22",
+            "yield_quantity_kg": 440
+        },
+        {
+            "batch_id": "B058",
+            "herb_id": "H005",
+            "herb_name": "Shatavari",
+            "farm_location": "Bokaro, Jharkhand",
+            "farmer_id": "F008",
+            "sowing_date": "2025-05-06",
+            "harvest_date": "2025-09-11",
+            "yield_quantity_kg": 179
+        },
+        {
+            "batch_id": "B059",
+            "herb_id": "H007",
+            "herb_name": "Turmeric",
+            "farm_location": "Alwar, Tamil Nadu",
+            "farmer_id": "F010",
+            "sowing_date": "2025-04-08",
+            "harvest_date": "2025-09-09",
+            "yield_quantity_kg": 449
+        },
+        {
+            "batch_id": "B060",
+            "herb_id": "H011",
+            "herb_name": "Bael",
+            "farm_location": "Jabalpur, Jharkhand",
+            "farmer_id": "F004",
+            "sowing_date": "2025-05-14",
+            "harvest_date": "2025-08-08",
+            "yield_quantity_kg": 291
+        }
+    ],
+    "processing": [
+        {
+            "process_id": "P001",
+            "batch_id": "B001",
+            "process_type": "Extracting",
+            "output_form": "Liquid Extract",
+            "timestamp": "2025-01-07 16:49:25"
+        },
+        {
+            "process_id": "P002",
+            "batch_id": "B002",
+            "process_type": "Extracting",
+            "output_form": "Liquid Extract",
+            "timestamp": "2025-01-02 00:24:54"
+        },
+        {
+            "process_id": "P003",
+            "batch_id": "B003",
+            "process_type": "Grinding",
+            "output_form": "Powder",
+            "timestamp": "2025-08-14 17:19:34"
+        },
+        {
+            "process_id": "P004",
+            "batch_id": "B004",
+            "process_type": "Extracting",
+            "output_form": "Liquid Extract",
+            "timestamp": "2025-05-10 12:35:45"
+        },
+        {
+            "process_id": "P005",
+            "batch_id": "B005",
+            "process_type": "Drying",
+            "output_form": "Powder",
+            "timestamp": "2025-07-24 02:21:20"
+        },
+        {
+            "process_id": "P006",
+            "batch_id": "B006",
+            "process_type": "Oil Extraction",
+            "output_form": "Oil",
+            "timestamp": "2025-02-15 09:30:42"
+        },
+        {
+            "process_id": "P007",
+            "batch_id": "B007",
+            "process_type": "Extracting",
+            "output_form": "Liquid Extract",
+            "timestamp": "2025-03-16 08:09:36"
+        },
+        {
+            "process_id": "P008",
+            "batch_id": "B008",
+            "process_type": "Grinding",
+            "output_form": "Powder",
+            "timestamp": "2025-02-10 08:54:52"
+        },
+        {
+            "process_id": "P009",
+            "batch_id": "B009",
+            "process_type": "Drying",
+            "output_form": "Powder",
+            "timestamp": "2025-08-01 08:56:58"
+        },
+        {
+            "process_id": "P010",
+            "batch_id": "B010",
+            "process_type": "Drying",
+            "output_form": "Powder",
+            "timestamp": "2025-08-10 21:55:07"
+        },
+        {
+            "process_id": "P011",
+            "batch_id": "B011",
+            "process_type": "Grinding",
+            "output_form": "Powder",
+            "timestamp": "2025-07-19 23:37:04"
+        },
+        {
+            "process_id": "P012",
+            "batch_id": "B012",
+            "process_type": "Distillation",
+            "output_form": "Essential Oil",
+            "timestamp": "2025-05-31 05:50:34"
+        },
+        {
+            "process_id": "P013",
+            "batch_id": "B013",
+            "process_type": "Extracting",
+            "output_form": "Liquid Extract",
+            "timestamp": "2025-01-10 03:55:32"
+        },
+        {
+            "process_id": "P014",
+            "batch_id": "B014",
+            "process_type": "Oil Extraction",
+            "output_form": "Oil",
+            "timestamp": "2025-07-13 02:53:36"
+        },
+        {
+            "process_id": "P015",
+            "batch_id": "B015",
+            "process_type": "Distillation",
+            "output_form": "Essential Oil",
+            "timestamp": "2025-05-19 22:15:32"
+        },
+        {
+            "process_id": "P016",
+            "batch_id": "B016",
+            "process_type": "Drying",
+            "output_form": "Powder",
+            "timestamp": "2025-08-13 02:25:16"
+        },
+        {
+            "process_id": "P017",
+            "batch_id": "B017",
+            "process_type": "Drying",
+            "output_form": "Powder",
+            "timestamp": "2025-04-30 01:49:31"
+        },
+        {
+            "process_id": "P018",
+            "batch_id": "B018",
+            "process_type": "Grinding",
+            "output_form": "Powder",
+            "timestamp": "2025-02-13 10:40:56"
+        },
+        {
+            "process_id": "P019",
+            "batch_id": "B019",
+            "process_type": "Extracting",
+            "output_form": "Liquid Extract",
+            "timestamp": "2025-07-23 18:51:04"
+        },
+        {
+            "process_id": "P020",
+            "batch_id": "B020",
+            "process_type": "Grinding",
+            "output_form": "Powder",
+            "timestamp": "2025-08-22 19:05:34"
+        },
+        {
+            "process_id": "P021",
+            "batch_id": "B021",
+            "process_type": "Grinding",
+            "output_form": "Powder",
+            "timestamp": "2025-09-05 22:55:46"
+        },
+        {
+            "process_id": "P022",
+            "batch_id": "B022",
+            "process_type": "Oil Extraction",
+            "output_form": "Oil",
+            "timestamp": "2025-06-04 08:36:04"
+        },
+        {
+            "process_id": "P023",
+            "batch_id": "B023",
+            "process_type": "Distillation",
+            "output_form": "Essential Oil",
+            "timestamp": "2025-09-04 07:25:50"
+        },
+        {
+            "process_id": "P024",
+            "batch_id": "B024",
+            "process_type": "Oil Extraction",
+            "output_form": "Oil",
+            "timestamp": "2025-06-25 04:59:52"
+        },
+        {
+            "process_id": "P025",
+            "batch_id": "B025",
+            "process_type": "Oil Extraction",
+            "output_form": "Oil",
+            "timestamp": "2025-09-06 23:38:20"
+        },
+        {
+            "process_id": "P026",
+            "batch_id": "B026",
+            "process_type": "Distillation",
+            "output_form": "Essential Oil",
+            "timestamp": "2025-01-01 16:39:52"
+        },
+        {
+            "process_id": "P027",
+            "batch_id": "B027",
+            "process_type": "Drying",
+            "output_form": "Powder",
+            "timestamp": "2025-02-05 02:58:20"
+        },
+        {
+            "process_id": "P028",
+            "batch_id": "B028",
+            "process_type": "Grinding",
+            "output_form": "Powder",
+            "timestamp": "2025-09-14 09:27:59"
+        },
+        {
+            "process_id": "P029",
+            "batch_id": "B029",
+            "process_type": "Drying",
+            "output_form": "Powder",
+            "timestamp": "2025-04-03 19:40:37"
+        },
+        {
+            "process_id": "P030",
+            "batch_id": "B030",
+            "process_type": "Drying",
+            "output_form": "Powder",
+            "timestamp": "2025-06-18 00:15:24"
+        },
+        {
+            "process_id": "P031",
+            "batch_id": "B031",
+            "process_type": "Oil Extraction",
+            "output_form": "Oil",
+            "timestamp": "2025-06-29 03:57:04"
+        },
+        {
+            "process_id": "P032",
+            "batch_id": "B032",
+            "process_type": "Drying",
+            "output_form": "Powder",
+            "timestamp": "2025-02-26 06:11:46"
+        },
+        {
+            "process_id": "P033",
+            "batch_id": "B033",
+            "process_type": "Oil Extraction",
+            "output_form": "Oil",
+            "timestamp": "2025-06-29 12:33:12"
+        },
+        {
+            "process_id": "P034",
+            "batch_id": "B034",
+            "process_type": "Grinding",
+            "output_form": "Powder",
+            "timestamp": "2025-03-23 02:44:06"
+        },
+        {
+            "process_id": "P035",
+            "batch_id": "B035",
+            "process_type": "Distillation",
+            "output_form": "Essential Oil",
+            "timestamp": "2025-07-11 15:22:39"
+        },
+        {
+            "process_id": "P036",
+            "batch_id": "B036",
+            "process_type": "Extracting",
+            "output_form": "Liquid Extract",
+            "timestamp": "2025-05-23 16:33:45"
+        },
+        {
+            "process_id": "P037",
+            "batch_id": "B037",
+            "process_type": "Oil Extraction",
+            "output_form": "Oil",
+            "timestamp": "2025-05-28 18:52:52"
+        },
+        {
+            "process_id": "P038",
+            "batch_id": "B038",
+            "process_type": "Extracting",
+            "output_form": "Liquid Extract",
+            "timestamp": "2025-07-05 06:50:45"
+        },
+        {
+            "process_id": "P039",
+            "batch_id": "B039",
+            "process_type": "Grinding",
+            "output_form": "Powder",
+            "timestamp": "2025-08-16 22:12:21"
+        },
+        {
+            "process_id": "P040",
+            "batch_id": "B040",
+            "process_type": "Distillation",
+            "output_form": "Essential Oil",
+            "timestamp": "2025-07-15 12:02:19"
+        },
+        {
+            "process_id": "P041",
+            "batch_id": "B041",
+            "process_type": "Oil Extraction",
+            "output_form": "Oil",
+            "timestamp": "2025-05-18 20:56:10"
+        },
+        {
+            "process_id": "P042",
+            "batch_id": "B042",
+            "process_type": "Drying",
+            "output_form": "Powder",
+            "timestamp": "2025-08-19 00:29:12"
+        },
+        {
+            "process_id": "P043",
+            "batch_id": "B043",
+            "process_type": "Distillation",
+            "output_form": "Essential Oil",
+            "timestamp": "2025-09-12 11:34:23"
+        },
+        {
+            "process_id": "P044",
+            "batch_id": "B044",
+            "process_type": "Drying",
+            "output_form": "Powder",
+            "timestamp": "2025-04-21 19:54:52"
+        },
+        {
+            "process_id": "P045",
+            "batch_id": "B045",
+            "process_type": "Distillation",
+            "output_form": "Essential Oil",
+            "timestamp": "2025-06-09 10:27:21"
+        },
+        {
+            "process_id": "P046",
+            "batch_id": "B046",
+            "process_type": "Oil Extraction",
+            "output_form": "Oil",
+            "timestamp": "2025-05-09 14:26:46"
+        },
+        {
+            "process_id": "P047",
+            "batch_id": "B047",
+            "process_type": "Extracting",
+            "output_form": "Liquid Extract",
+            "timestamp": "2025-01-31 17:13:08"
+        },
+        {
+            "process_id": "P048",
+            "batch_id": "B048",
+            "process_type": "Grinding",
+            "output_form": "Powder",
+            "timestamp": "2025-03-08 20:12:07"
+        },
+        {
+            "process_id": "P049",
+            "batch_id": "B049",
+            "process_type": "Drying",
+            "output_form": "Powder",
+            "timestamp": "2025-08-25 06:24:36"
+        },
+        {
+            "process_id": "P050",
+            "batch_id": "B050",
+            "process_type": "Grinding",
+            "output_form": "Powder",
+            "timestamp": "2025-07-22 00:09:44"
+        },
+        {
+            "process_id": "P051",
+            "batch_id": "B051",
+            "process_type": "Grinding",
+            "output_form": "Powder",
+            "timestamp": "2025-04-08 03:13:52"
+        },
+        {
+            "process_id": "P052",
+            "batch_id": "B052",
+            "process_type": "Extracting",
+            "output_form": "Liquid Extract",
+            "timestamp": "2025-04-11 23:12:58"
+        },
+        {
+            "process_id": "P053",
+            "batch_id": "B053",
+            "process_type": "Grinding",
+            "output_form": "Powder",
+            "timestamp": "2025-05-21 20:01:50"
+        },
+        {
+            "process_id": "P054",
+            "batch_id": "B054",
+            "process_type": "Oil Extraction",
+            "output_form": "Oil",
+            "timestamp": "2025-04-19 11:31:50"
+        },
+        {
+            "process_id": "P055",
+            "batch_id": "B055",
+            "process_type": "Drying",
+            "output_form": "Powder",
+            "timestamp": "2025-05-28 03:26:11"
+        },
+        {
+            "process_id": "P056",
+            "batch_id": "B056",
+            "process_type": "Drying",
+            "output_form": "Powder",
+            "timestamp": "2025-07-19 06:57:38"
+        },
+        {
+            "process_id": "P057",
+            "batch_id": "B057",
+            "process_type": "Distillation",
+            "output_form": "Essential Oil",
+            "timestamp": "2025-04-23 19:59:54"
+        },
+        {
+            "process_id": "P058",
+            "batch_id": "B058",
+            "process_type": "Extracting",
+            "output_form": "Liquid Extract",
+            "timestamp": "2025-06-16 10:32:22"
+        },
+        {
+            "process_id": "P059",
+            "batch_id": "B059",
+            "process_type": "Extracting",
+            "output_form": "Liquid Extract",
+            "timestamp": "2025-07-07 03:29:06"
+        },
+        {
+            "process_id": "P060",
+            "batch_id": "B060",
+            "process_type": "Grinding",
+            "output_form": "Powder",
+            "timestamp": "2025-06-16 09:11:31"
+        }
+    ],
+    "packaging": [
+        {
+            "package_id": "PK001",
+            "product_name": "Digestive Aid Powder",
+            "ingredients": [
+                {
+                    "batch_id": "B013",
+                    "form": "Extract"
+                },
+                {
+                    "batch_id": "B023",
+                    "form": "Extract"
+                },
+                {
+                    "batch_id": "B048",
+                    "form": "Powder"
+                }
+            ],
+            "packaging_type": "Bottle",
+            "packaging_date": "2025-08-07",
+            "expiry_date": "2026-12-21",
+            "quantity_units": 631
+        },
+        {
+            "package_id": "PK002",
+            "product_name": "Herbal Hair Oil",
+            "ingredients": [
+                {
+                    "batch_id": "B029",
+                    "form": "Extract"
+                },
+                {
+                    "batch_id": "B012",
+                    "form": "Extract"
+                },
+                {
+                    "batch_id": "B058",
+                    "form": "Oil"
+                }
+            ],
+            "packaging_type": "Glass Bottle",
+            "packaging_date": "2025-02-21",
+            "expiry_date": "2027-04-23",
+            "quantity_units": 1541
+        },
+        {
+            "package_id": "PK003",
+            "product_name": "Diabetes Care Supplement",
+            "ingredients": [
+                {
+                    "batch_id": "B040",
+                    "form": "Oil"
+                },
+                {
+                    "batch_id": "B010",
+                    "form": "Oil"
+                }
+            ],
+            "packaging_type": "Packet",
+            "packaging_date": "2025-07-16",
+            "expiry_date": "2028-08-10",
+            "quantity_units": 1495
+        },
+        {
+            "package_id": "PK004",
+            "product_name": "Brain Health Tonic",
+            "ingredients": [
+                {
+                    "batch_id": "B014",
+                    "form": "Oil"
+                },
+                {
+                    "batch_id": "B057",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B037",
+                    "form": "Extract"
+                },
+                {
+                    "batch_id": "B035",
+                    "form": "Powder"
+                }
+            ],
+            "packaging_type": "Bottle",
+            "packaging_date": "2025-04-21",
+            "expiry_date": "2028-07-10",
+            "quantity_units": 1032
+        },
+        {
+            "package_id": "PK005",
+            "product_name": "Joint Care Capsules",
+            "ingredients": [
+                {
+                    "batch_id": "B038",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B059",
+                    "form": "Oil"
+                },
+                {
+                    "batch_id": "B001",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B015",
+                    "form": "Powder"
+                }
+            ],
+            "packaging_type": "Bottle",
+            "packaging_date": "2025-08-18",
+            "expiry_date": "2027-02-06",
+            "quantity_units": 1664
+        },
+        {
+            "package_id": "PK006",
+            "product_name": "Stress Relief Capsules",
+            "ingredients": [
+                {
+                    "batch_id": "B030",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B046",
+                    "form": "Powder"
+                }
+            ],
+            "packaging_type": "Capsule",
+            "packaging_date": "2025-06-24",
+            "expiry_date": "2028-07-09",
+            "quantity_units": 1211
+        },
+        {
+            "package_id": "PK007",
+            "product_name": "Respiratory Relief Syrup",
+            "ingredients": [
+                {
+                    "batch_id": "B042",
+                    "form": "Powder"
+                }
+            ],
+            "packaging_type": "Tube",
+            "packaging_date": "2025-08-03",
+            "expiry_date": "2028-08-25",
+            "quantity_units": 1778
+        },
+        {
+            "package_id": "PK008",
+            "product_name": "Joint Care Capsules",
+            "ingredients": [
+                {
+                    "batch_id": "B059",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B017",
+                    "form": "Extract"
+                },
+                {
+                    "batch_id": "B018",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B020",
+                    "form": "Powder"
+                }
+            ],
+            "packaging_type": "Bottle",
+            "packaging_date": "2025-08-20",
+            "expiry_date": "2027-09-23",
+            "quantity_units": 1482
+        },
+        {
+            "package_id": "PK009",
+            "product_name": "Respiratory Relief Syrup",
+            "ingredients": [
+                {
+                    "batch_id": "B003",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B057",
+                    "form": "Extract"
+                }
+            ],
+            "packaging_type": "Tube",
+            "packaging_date": "2025-05-26",
+            "expiry_date": "2028-01-08",
+            "quantity_units": 1834
+        },
+        {
+            "package_id": "PK010",
+            "product_name": "Joint Care Capsules",
+            "ingredients": [
+                {
+                    "batch_id": "B014",
+                    "form": "Extract"
+                },
+                {
+                    "batch_id": "B031",
+                    "form": "Oil"
+                }
+            ],
+            "packaging_type": "Tube",
+            "packaging_date": "2025-04-08",
+            "expiry_date": "2027-11-25",
+            "quantity_units": 669
+        },
+        {
+            "package_id": "PK011",
+            "product_name": "Brain Health Tonic",
+            "ingredients": [
+                {
+                    "batch_id": "B049",
+                    "form": "Oil"
+                },
+                {
+                    "batch_id": "B006",
+                    "form": "Powder"
+                }
+            ],
+            "packaging_type": "Glass Bottle",
+            "packaging_date": "2025-09-13",
+            "expiry_date": "2028-03-13",
+            "quantity_units": 741
+        },
+        {
+            "package_id": "PK012",
+            "product_name": "Respiratory Relief Syrup",
+            "ingredients": [
+                {
+                    "batch_id": "B044",
+                    "form": "Extract"
+                },
+                {
+                    "batch_id": "B005",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B060",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B014",
+                    "form": "Oil"
+                }
+            ],
+            "packaging_type": "Bottle",
+            "packaging_date": "2025-07-18",
+            "expiry_date": "2026-11-28",
+            "quantity_units": 832
+        },
+        {
+            "package_id": "PK013",
+            "product_name": "Respiratory Relief Syrup",
+            "ingredients": [
+                {
+                    "batch_id": "B036",
+                    "form": "Powder"
+                }
+            ],
+            "packaging_type": "Bottle",
+            "packaging_date": "2025-01-24",
+            "expiry_date": "2028-07-28",
+            "quantity_units": 1496
+        },
+        {
+            "package_id": "PK014",
+            "product_name": "Diabetes Care Supplement",
+            "ingredients": [
+                {
+                    "batch_id": "B007",
+                    "form": "Extract"
+                },
+                {
+                    "batch_id": "B037",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B050",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B051",
+                    "form": "Powder"
+                }
+            ],
+            "packaging_type": "Packet",
+            "packaging_date": "2025-03-25",
+            "expiry_date": "2027-12-05",
+            "quantity_units": 553
+        },
+        {
+            "package_id": "PK015",
+            "product_name": "Digestive Aid Powder",
+            "ingredients": [
+                {
+                    "batch_id": "B054",
+                    "form": "Extract"
+                }
+            ],
+            "packaging_type": "Tube",
+            "packaging_date": "2025-04-13",
+            "expiry_date": "2026-11-12",
+            "quantity_units": 1315
+        },
+        {
+            "package_id": "PK016",
+            "product_name": "Brain Health Tonic",
+            "ingredients": [
+                {
+                    "batch_id": "B002",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B032",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B049",
+                    "form": "Powder"
+                }
+            ],
+            "packaging_type": "Bottle",
+            "packaging_date": "2025-05-24",
+            "expiry_date": "2026-11-17",
+            "quantity_units": 1895
+        },
+        {
+            "package_id": "PK017",
+            "product_name": "Neem Skin Oil",
+            "ingredients": [
+                {
+                    "batch_id": "B021",
+                    "form": "Oil"
+                },
+                {
+                    "batch_id": "B046",
+                    "form": "Oil"
+                }
+            ],
+            "packaging_type": "Packet",
+            "packaging_date": "2025-03-08",
+            "expiry_date": "2027-10-20",
+            "quantity_units": 1514
+        },
+        {
+            "package_id": "PK018",
+            "product_name": "Brain Health Tonic",
+            "ingredients": [
+                {
+                    "batch_id": "B038",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B013",
+                    "form": "Oil"
+                }
+            ],
+            "packaging_type": "Tube",
+            "packaging_date": "2025-07-08",
+            "expiry_date": "2026-11-19",
+            "quantity_units": 1620
+        },
+        {
+            "package_id": "PK019",
+            "product_name": "Diabetes Care Supplement",
+            "ingredients": [
+                {
+                    "batch_id": "B059",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B015",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B034",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B039",
+                    "form": "Oil"
+                }
+            ],
+            "packaging_type": "Glass Bottle",
+            "packaging_date": "2025-06-21",
+            "expiry_date": "2027-12-25",
+            "quantity_units": 620
+        },
+        {
+            "package_id": "PK020",
+            "product_name": "Skin Glow Cream",
+            "ingredients": [
+                {
+                    "batch_id": "B034",
+                    "form": "Extract"
+                },
+                {
+                    "batch_id": "B054",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B020",
+                    "form": "Oil"
+                }
+            ],
+            "packaging_type": "Glass Bottle",
+            "packaging_date": "2025-08-29",
+            "expiry_date": "2027-11-28",
+            "quantity_units": 751
+        },
+        {
+            "package_id": "PK021",
+            "product_name": "Liver Detox Tablets",
+            "ingredients": [
+                {
+                    "batch_id": "B005",
+                    "form": "Powder"
+                }
+            ],
+            "packaging_type": "Glass Bottle",
+            "packaging_date": "2025-01-21",
+            "expiry_date": "2027-05-07",
+            "quantity_units": 1557
+        },
+        {
+            "package_id": "PK022",
+            "product_name": "Women's Health Supplement",
+            "ingredients": [
+                {
+                    "batch_id": "B036",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B045",
+                    "form": "Oil"
+                },
+                {
+                    "batch_id": "B013",
+                    "form": "Oil"
+                },
+                {
+                    "batch_id": "B044",
+                    "form": "Powder"
+                }
+            ],
+            "packaging_type": "Glass Bottle",
+            "packaging_date": "2025-04-02",
+            "expiry_date": "2027-12-09",
+            "quantity_units": 1698
+        },
+        {
+            "package_id": "PK023",
+            "product_name": "Neem Skin Oil",
+            "ingredients": [
+                {
+                    "batch_id": "B020",
+                    "form": "Extract"
+                },
+                {
+                    "batch_id": "B018",
+                    "form": "Extract"
+                },
+                {
+                    "batch_id": "B047",
+                    "form": "Oil"
+                },
+                {
+                    "batch_id": "B015",
+                    "form": "Powder"
+                }
+            ],
+            "packaging_type": "Glass Bottle",
+            "packaging_date": "2025-04-16",
+            "expiry_date": "2028-09-06",
+            "quantity_units": 1953
+        },
+        {
+            "package_id": "PK024",
+            "product_name": "Women's Health Supplement",
+            "ingredients": [
+                {
+                    "batch_id": "B050",
+                    "form": "Oil"
+                },
+                {
+                    "batch_id": "B055",
+                    "form": "Extract"
+                },
+                {
+                    "batch_id": "B048",
+                    "form": "Extract"
+                },
+                {
+                    "batch_id": "B015",
+                    "form": "Powder"
+                }
+            ],
+            "packaging_type": "Tube",
+            "packaging_date": "2025-06-04",
+            "expiry_date": "2027-09-06",
+            "quantity_units": 624
+        },
+        {
+            "package_id": "PK025",
+            "product_name": "Diabetes Care Supplement",
+            "ingredients": [
+                {
+                    "batch_id": "B031",
+                    "form": "Extract"
+                }
+            ],
+            "packaging_type": "Capsule",
+            "packaging_date": "2025-08-16",
+            "expiry_date": "2026-11-21",
+            "quantity_units": 1715
+        },
+        {
+            "package_id": "PK026",
+            "product_name": "Women's Health Supplement",
+            "ingredients": [
+                {
+                    "batch_id": "B016",
+                    "form": "Oil"
+                },
+                {
+                    "batch_id": "B007",
+                    "form": "Extract"
+                }
+            ],
+            "packaging_type": "Capsule",
+            "packaging_date": "2025-05-27",
+            "expiry_date": "2028-06-17",
+            "quantity_units": 1744
+        },
+        {
+            "package_id": "PK027",
+            "product_name": "Digestive Aid Powder",
+            "ingredients": [
+                {
+                    "batch_id": "B035",
+                    "form": "Oil"
+                }
+            ],
+            "packaging_type": "Glass Bottle",
+            "packaging_date": "2025-06-12",
+            "expiry_date": "2028-02-28",
+            "quantity_units": 1867
+        },
+        {
+            "package_id": "PK028",
+            "product_name": "Immunity Booster Tonic",
+            "ingredients": [
+                {
+                    "batch_id": "B043",
+                    "form": "Extract"
+                },
+                {
+                    "batch_id": "B049",
+                    "form": "Extract"
+                }
+            ],
+            "packaging_type": "Bottle",
+            "packaging_date": "2025-03-16",
+            "expiry_date": "2028-09-01",
+            "quantity_units": 1148
+        },
+        {
+            "package_id": "PK029",
+            "product_name": "Stress Relief Capsules",
+            "ingredients": [
+                {
+                    "batch_id": "B036",
+                    "form": "Extract"
+                },
+                {
+                    "batch_id": "B014",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B032",
+                    "form": "Powder"
+                }
+            ],
+            "packaging_type": "Packet",
+            "packaging_date": "2025-05-02",
+            "expiry_date": "2027-02-02",
+            "quantity_units": 1088
+        },
+        {
+            "package_id": "PK030",
+            "product_name": "Immunity Booster Tonic",
+            "ingredients": [
+                {
+                    "batch_id": "B015",
+                    "form": "Powder"
+                },
+                {
+                    "batch_id": "B060",
+                    "form": "Oil"
+                },
+                {
+                    "batch_id": "B012",
+                    "form": "Extract"
+                }
+            ],
+            "packaging_type": "Bottle",
+            "packaging_date": "2025-08-28",
+            "expiry_date": "2026-09-24",
+            "quantity_units": 856
+        }
+    ],
+    "retailers": [
+        {
+            "retail_id": "R001",
+            "package_id": "PK001",
+            "retailer_name": "Sinha-Borra",
+            "location": "Morbi",
+            "date_received": "2025-03-13"
+        },
+        {
+            "retail_id": "R002",
+            "package_id": "PK002",
+            "retailer_name": "Rege-Guha",
+            "location": "Dibrugarh",
+            "date_received": "2025-08-17"
+        },
+        {
+            "retail_id": "R003",
+            "package_id": "PK003",
+            "retailer_name": "Vyas-Bains",
+            "location": "Amaravati",
+            "date_received": "2025-01-28"
+        },
+        {
+            "retail_id": "R004",
+            "package_id": "PK004",
+            "retailer_name": "Walla, Sheth and Gandhi",
+            "location": "Bettiah",
+            "date_received": "2025-03-07"
+        },
+        {
+            "retail_id": "R005",
+            "package_id": "PK005",
+            "retailer_name": "Mangat-Raju",
+            "location": "Rourkela",
+            "date_received": "2025-01-06"
+        },
+        {
+            "retail_id": "R006",
+            "package_id": "PK006",
+            "retailer_name": "Walia-Bala",
+            "location": "Karimnagar",
+            "date_received": "2025-02-15"
+        },
+        {
+            "retail_id": "R007",
+            "package_id": "PK007",
+            "retailer_name": "Banerjee Group",
+            "location": "Chittoor",
+            "date_received": "2025-07-26"
+        },
+        {
+            "retail_id": "R008",
+            "package_id": "PK008",
+            "retailer_name": "Barad PLC",
+            "location": "Thiruvananthapuram",
+            "date_received": "2025-05-01"
+        },
+        {
+            "retail_id": "R009",
+            "package_id": "PK009",
+            "retailer_name": "Banik-Ratta",
+            "location": "Khora ",
+            "date_received": "2025-07-04"
+        },
+        {
+            "retail_id": "R010",
+            "package_id": "PK010",
+            "retailer_name": "Zachariah, Bedi and Kata",
+            "location": "Sangli-Miraj & Kupwad",
+            "date_received": "2025-02-10"
+        },
+        {
+            "retail_id": "R011",
+            "package_id": "PK011",
+            "retailer_name": "Seshadri, Mallick and Kara",
+            "location": "Siliguri",
+            "date_received": "2025-03-05"
+        },
+        {
+            "retail_id": "R012",
+            "package_id": "PK012",
+            "retailer_name": "Shukla PLC",
+            "location": "Haldia",
+            "date_received": "2025-09-15"
+        },
+        {
+            "retail_id": "R013",
+            "package_id": "PK013",
+            "retailer_name": "Swaminathan, Mall and Mannan",
+            "location": "Ahmedabad",
+            "date_received": "2025-02-16"
+        },
+        {
+            "retail_id": "R014",
+            "package_id": "PK014",
+            "retailer_name": "Wali, Sura and Dutt",
+            "location": "Agra",
+            "date_received": "2025-07-24"
+        },
+        {
+            "retail_id": "R015",
+            "package_id": "PK015",
+            "retailer_name": "Sibal, Sastry and Setty",
+            "location": "Siwan",
+            "date_received": "2025-08-30"
+        },
+        {
+            "retail_id": "R016",
+            "package_id": "PK016",
+            "retailer_name": "Aggarwal-Grover",
+            "location": "Guwahati",
+            "date_received": "2025-04-19"
+        },
+        {
+            "retail_id": "R017",
+            "package_id": "PK017",
+            "retailer_name": "Ahuja, Chandra and Boase",
+            "location": "Faridabad",
+            "date_received": "2025-01-21"
+        },
+        {
+            "retail_id": "R018",
+            "package_id": "PK018",
+            "retailer_name": "Chaudhary, Bhardwaj and Dubey",
+            "location": "Raebareli",
+            "date_received": "2025-06-13"
+        },
+        {
+            "retail_id": "R019",
+            "package_id": "PK019",
+            "retailer_name": "Desai, Kashyap and Lanka",
+            "location": "Sasaram",
+            "date_received": "2025-06-03"
+        },
+        {
+            "retail_id": "R020",
+            "package_id": "PK020",
+            "retailer_name": "Kannan and Sons",
+            "location": "Firozabad",
+            "date_received": "2025-04-18"
+        },
+        {
+            "retail_id": "R021",
+            "package_id": "PK021",
+            "retailer_name": "Kaur LLC",
+            "location": "Dewas",
+            "date_received": "2025-05-30"
+        },
+        {
+            "retail_id": "R022",
+            "package_id": "PK022",
+            "retailer_name": "Ben-Shetty",
+            "location": "Bhiwandi",
+            "date_received": "2025-05-12"
+        },
+        {
+            "retail_id": "R023",
+            "package_id": "PK023",
+            "retailer_name": "Mann and Sons",
+            "location": "Alappuzha",
+            "date_received": "2025-02-11"
+        },
+        {
+            "retail_id": "R024",
+            "package_id": "PK024",
+            "retailer_name": "Bhatti-Chaudhry",
+            "location": "Berhampur",
+            "date_received": "2025-03-30"
+        },
+        {
+            "retail_id": "R025",
+            "package_id": "PK025",
+            "retailer_name": "Dhillon LLC",
+            "location": "Akola",
+            "date_received": "2025-03-22"
+        },
+        {
+            "retail_id": "R026",
+            "package_id": "PK026",
+            "retailer_name": "Chand-Talwar",
+            "location": "Karnal",
+            "date_received": "2025-02-25"
+        },
+        {
+            "retail_id": "R027",
+            "package_id": "PK027",
+            "retailer_name": "Jayaraman LLC",
+            "location": "Gulbarga",
+            "date_received": "2025-08-15"
+        },
+        {
+            "retail_id": "R028",
+            "package_id": "PK028",
+            "retailer_name": "Sanghvi-Sekhon",
+            "location": "Lucknow",
+            "date_received": "2025-01-10"
+        },
+        {
+            "retail_id": "R029",
+            "package_id": "PK029",
+            "retailer_name": "Cheema, Mallick and Iyer",
+            "location": "Tezpur",
+            "date_received": "2025-05-08"
+        },
+        {
+            "retail_id": "R030",
+            "package_id": "PK030",
+            "retailer_name": "Wali-Kanda",
+            "location": "Chandrapur",
+            "date_received": "2025-02-15"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+# HerbTrace
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+.DS_Store
+*.log
+.coverage
+htmlcov/
+.pytest_cache/
+node_modules/
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
