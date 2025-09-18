@@ -169,3 +169,102 @@ After successful deployment:
 5. **Scaling**: Configure auto-scaling for high traffic
 
 Your HerbTrace application is now ready for production with a modern, professional UI! 🚀
+
+## 📱 Mobile App Deployment (React Native Expo)
+
+### Prerequisites
+
+1. **Install EAS CLI:**
+   ```bash
+   npm install -g @expo/eas-cli
+   ```
+
+2. **Navigate to mobile app directory:**
+   ```bash
+   cd /Users/king/Documents/HerbTrace/mobile-app/HerbTraceApp
+   ```
+
+3. **Login to Expo:**
+   ```bash
+   eas login
+   ```
+
+### Configure Backend URL
+
+1. **Update ApiService.ts:**
+   - Open `src/services/ApiService.ts`
+   - Replace `'https://your-app-name.railway.app'` with your deployed backend URL
+   - Example: `'https://herbtrace-api.railway.app'`
+
+### iOS App Store Deployment
+
+1. **Configure iOS credentials:**
+   ```bash
+   eas credentials:configure -p ios
+   ```
+
+2. **Build for App Store:**
+   ```bash
+   eas build --platform ios --profile production
+   ```
+
+3. **Submit to App Store:**
+   ```bash
+   eas submit --platform ios --profile production
+   ```
+
+### Android Play Store Deployment
+
+1. **Configure Android credentials:**
+   ```bash
+   eas credentials:configure -p android
+   ```
+
+2. **Build for Play Store:**
+   ```bash
+   eas build --platform android --profile production
+   ```
+
+3. **Submit to Play Store:**
+   ```bash
+   eas submit --platform android --profile production
+   ```
+
+### Development Testing
+
+For testing during development:
+
+```bash
+# Install on development device
+eas build --platform all --profile development
+
+# Create preview build (installable APK/IPA)
+eas build --platform all --profile preview
+```
+
+### Mobile App Features
+
+Your mobile app includes:
+
+- **Native QR Code Scanner** with camera integration
+- **Complete Product Traceability** with timeline view
+- **Professional UI** matching modern design standards
+- **Offline-Ready Architecture** for future enhancement
+- **Cross-Platform Compatibility** (iOS and Android)
+- **Professional App Store Ready** configuration
+
+### Troubleshooting Mobile Deployment
+
+- **Build failures**: Check `expo diagnostics` and dependency versions
+- **API connection issues**: Verify backend URL in ApiService.ts
+- **Camera not working**: Check permissions in app.json
+- **CORS errors**: Ensure backend CORS is configured for mobile app
+
+## 🎯 Complete Deployment Summary
+
+You now have two deployment options:
+
+1. **Web Application**: Modern responsive web app deployed on Railway/Heroku
+2. **Mobile Application**: Native iOS/Android app via Expo and app stores
+
+Both versions share the same backend and provide complete herb traceability functionality! 🌱📱
